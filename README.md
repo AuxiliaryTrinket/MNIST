@@ -60,39 +60,7 @@
 - pandas, numpy — работа с данными
 - matplotlib, seaborn — визуализация
 - scikit-learn — классические ML-модели и метрики
-- PyTorch / TensorFlow (опционально) — нейронные сети
 
-## Структура проекта
-
-```
-.
-├── data/
-│   └── images.csv          # исходные данные
-├── notebooks/
-│   └── research.ipynb      # исследование и обучение моделей
-├── src/
-│   ├── data_loader.py      # загрузка и предобработка
-│   ├── model.py            # архитектуры моделей
-│   └── train.py            # обучение
-├── models/
-│   └── model.pkl           # сохранённая модель
-├── README.md
-└── requirements.txt
-```
-
-## Как запустить
-
-```bash
-# Клонировать репозиторий
-git clone https://github.com/ваш_логин/название-репозитория.git
-cd название-репозитория
-
-# Установить зависимости
-pip install -r requirements.txt
-
-# Запустить обучение
-python src/train.py
-```
 
 ## Источник данных
 
